@@ -1,0 +1,366 @@
+{
+  "itemName" : "coa_quarterstaff",
+  "price" : 50,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "The origin of man, a big stick.",
+  "shortdescription" : "Refined Timber Staff",
+  "tooltipKind" : "object",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+  "inventoryIcon" : "coa_quarterstaff.png",
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "learnBlueprintsOnPickup" : ["coa_polehammer"],
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "coa_quarterstaff.png"
+  },
+  "animationCustom" : {
+    "transformationGroups" : {
+     "weapon" : {
+     },
+     "swoosh" : {
+     }
+    },
+    "sounds" : {
+     "fire2" : ["/sfx/melee/swing_shortsword.ogg"],
+     "upswing" : ["/sfx/melee/swing_shortsword.ogg"],
+     "fire3" : ["/sfx/melee/swing_spear.ogg"],
+     "fire4" : ["/sfx/melee/swing_spear.ogg"],
+     "fire" : ["/sfx/melee/swing_broadsword.ogg"]
+    },
+    "globalTagDefaults" : {
+     "swooshcolor" : "?replace;E7EFF7=A5956F;94DEE7=816E52;52C6D6=544636"
+    },
+    "animatedParts" : {
+     "stateTypes" : {
+      "spinSwoosh" : {
+       "states" : {
+        "spin" : {
+         "properties" : {
+          "persistentSound" : "/sfx/melee/spear_twirl_loop.ogg"
+         },
+         "cycle" : 0.5,
+         "mode" : "loop",
+         "frames" : 1
+        },
+        "idle" : {
+        }
+       },
+       "default" : "idle"
+      },
+      "swoosh" : {
+       "states" : {
+        "fire2" : {
+         "mode" : "transition",
+         "cycle" : 0.1,
+         "frames" : 3,
+         "transition" : "idle"
+        },
+        "fire3" : {
+         "mode" : "transition",
+         "cycle" : 0.1,
+         "frames" : 3,
+         "transition" : "idle"
+        },
+        "idle" : {
+        },
+        "fire4" : {
+         "mode" : "transition",
+         "cycle" : 0.1,
+         "frames" : 3,
+         "transition" : "idle"
+        },
+        "fire" : {
+         "mode" : "transition",
+         "cycle" : 0.1,
+         "frames" : 3,
+         "transition" : "idle"
+        }
+       },
+       "default" : "idle"
+      }
+     },
+     "parts" : {
+      "blade" : {
+       "properties" : {
+        "image" : "<partImage>",
+        "offset" : [0, 1.8],
+        "damageArea" : [[-0.7, -1], [-0.7, 2.5], [0.5, 2.5], [0.5, -1]],
+        "zLevel" : 0,
+        "transformationGroups" : ["weapon"],
+        "rotationCenter" : [0, 0],
+        "centered" : true
+       }
+      },
+      "spinSwoosh" : {
+       "properties" : {
+        "fullbright" : false,
+        "offset" : [0, 0],
+        "damageArea" : [[-3.75, 1.75], [-1.75, 3.75], [1.75, 3.75], [3.75, 1.75], [3.75, -1.75], [1.75, -3.75], [-1.75, -3.75], [-3.75, -1.75]],
+        "zLevel" : 1,
+        "transformationGroups" : ["swoosh"],
+        "centered" : true
+       },
+       "partStates" : {
+        "spinSwoosh" : {
+         "spin" : {
+          "properties" : {
+            "image" : "/items/active/weapons/melee/swooshes/spinswooshonecolor.png<swooshcolor>",
+           "offset" : [1.8, 0]
+          }
+         },
+         "idle" : {
+          "properties" : {
+           "image" : ""
+          }
+         }
+        }
+       }
+      },
+      "swoosh" : {
+       "properties" : {
+        "zLevel" : -1,
+        "transformationGroups" : ["swoosh"],
+        "rotationCenter" : [0, 0],
+        "centered" : true
+       },
+       "partStates" : {
+        "swoosh" : {
+         "fire2" : {
+          "properties" : {
+           "damageArea" : [[0, 3], [3, 1.75], [4, -0.25], [4, -2.25], [3, -3.25], [-1, -2.5]],
+           "image" : "/items/active/weapons/melee/swooshes/threeswoosh/swoosh1flat.png:<frame><swooshcolor>?scalenearest=0.8;0.8",
+           "offset" : [1.25, 2]
+          }
+         },
+         "fire3" : {
+          "properties" : {
+           "damageArea" : [[2.75, 0], [-3, 1], [-3, -1]],
+           "image" : "/items/active/weapons/melee/broadsword/swoosh3/<elementalType>swoosh.png:<frame><swooshcolor>",
+           "offset" : [3.5, 0]
+          }
+         },
+         "idle" : {
+          "properties" : {
+           "image" : ""
+          }
+         },
+         "fire4" : {
+          "properties" : {
+           "damageArea" : [[2.75, 0], [-3, 1], [-3, -1]],
+           "image" : "/items/active/weapons/melee/broadsword/swoosh3/<elementalType>swoosh.png:<frame><swooshcolor>",
+           "offset" : [3.5, 0]
+          }
+         },
+         "fire" : {
+          "properties" : {
+           "damageArea" : [[-2.75, 0], [3, 1], [3, -1]],
+           "image" : "/items/active/weapons/melee/broadsword/swoosh3/<elementalType>swoosh.png:<frame><swooshcolor>?flipx",
+           "offset" : [0.5, 0]
+          }
+         }
+        }
+       }
+      
+     }
+    }
+   }
+  },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "physical",
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "comboSpeedFactor" : 0.9,
+    "type" : "broadswordcombo",
+    "flashTime" : 0.15,
+    "stances" : {
+     "windup3" : {
+      "allowRotate" : true,
+      "weaponRotation" : 55,
+      "allowFlip" : true,
+      "armRotation" : -150,
+      "twoHanded" : true,
+      "duration" : 0.2,
+      "hold" : true
+     },
+     "windup4" : {
+      "allowRotate" : true,
+      "weaponRotation" : 55,
+      "allowFlip" : true,
+      "armRotation" : -150,
+      "twoHanded" : true,
+      "duration" : 0.2,
+      "hold" : true
+     },
+     "idle" : {
+      "frontArmFrame" : "run.2",
+      "allowRotate" : false,
+      "weaponRotation" : 60,
+      "allowFlip" : true,
+      "armRotation" : 10,
+      "aimAngle" : 0
+     },
+     "preslash1" : {
+      "frontArmFrame" : "swim.2",
+      "allowRotate" : false,
+      "weaponRotation" : 60,
+      "allowFlip" : false,
+      "armRotation" : 15,
+      "weaponOffset" : [0, 2],
+      "twoHanded" : false,
+      "duration" : 0.025,
+      "backArmFrame" : "swim.1"
+     },
+     "preslash4" : {
+      "allowRotate" : false,
+      "weaponRotation" : 55,
+      "allowFlip" : true,
+      "armRotation" : -150,
+      "twoHanded" : true,
+      "duration" : 0.08
+     },
+     "fire1" : {
+      "frontArmFrame" : "swim.3",
+      "allowRotate" : false,
+      "weaponRotation" : 80,
+      "allowFlip" : false,
+      "armRotation" : 0,
+      "weaponOffset" : [0.6, -1],
+      "twoHanded" : false,
+      "duration" : 0.2,
+      "backArmFrame" : "swim.3"
+     },
+     "fire2" : {
+      "allowRotate" : false,
+      "weaponRotation" : -60,
+      "allowFlip" : true,
+      "armRotation" : -40,
+      "weaponOffset" : [0, -1],
+      "twoHanded" : true,
+      "duration" : 0.2
+     },
+     "fire3" : {
+      "allowRotate" : false,
+      "weaponRotation" : -90,
+      "allowFlip" : true,
+      "armRotation" : 0,
+      "twoHanded" : true,
+      "duration" : 0.2
+     },
+     "wait1" : {
+      "allowRotate" : false,
+      "weaponRotation" : 60,
+      "allowFlip" : true,
+      "armRotation" : 25,
+      "weaponOffset" : [0, -1],
+      "twoHanded" : false,
+      "duration" : 0.2
+     },
+     "fire4" : {
+      "allowRotate" : false,
+      "weaponRotation" : -80,
+      "allowFlip" : true,
+      "armRotation" : 0,
+      "twoHanded" : true,
+      "duration" : 0.2
+     },
+     "wait2" : {
+      "allowRotate" : false,
+      "weaponRotation" : 55,
+      "allowFlip" : true,
+      "armRotation" : -150,
+      "weaponOffset" : [0, 0],
+      "twoHanded" : true,
+      "duration" : 0.2
+     },
+     "wait3" : {
+      "allowRotate" : false,
+      "weaponRotation" : 55,
+      "allowFlip" : true,
+      "armRotation" : -150,
+      "weaponOffset" : [0, 0],
+      "twoHanded" : true,
+      "duration" : 0.2
+     },
+     "windup1" : {
+      "frontArmFrame" : "run.2",
+      "allowRotate" : true,
+      "weaponRotation" : 60,
+      "allowFlip" : true,
+      "armRotation" : 15,
+      "weaponOffset" : [0, 0.6],
+      "twoHanded" : false,
+      "duration" : 0.1,
+      "backArmFrame" : "jump.2"
+     },
+     "windup2" : {
+      "allowRotate" : true,
+      "weaponRotation" : 20,
+      "allowFlip" : true,
+      "armRotation" : -15,
+      "weaponOffset" : [0, 0],
+      "twoHanded" : true,
+      "duration" : 0.08
+     }
+    },
+    "flashDirectives" : "fade=FFFFFFFF=0.15",
+    "damageConfig" : {
+     "knockbackMode" : "facing",
+     "timeout" : 0.5,
+     "statusEffects" : [],
+     "damageSourceKind" : "hammer"
+    },
+    "name" : "Combo Slash",
+    "swooshOffsetRegions" : [[0.75, 0, 4.25, 5], [3, -0.5, 6.5, 2], [1.5, -1, 5.5, 1], [1.5, -1, 5.5, 1]],
+    "edgeTriggerGrace" : 0.25,
+    "fireTime" : 0.83,
+    "stepDamageConfig" : [{
+      "baseDamageFactor" : 0.8,
+      "knockback" : 15
+     }, {
+      "baseDamageFactor" : 0.3,
+      "knockback" : 10
+     }, {
+      "baseDamageFactor" : 0.3,
+      "knockback" : 10
+     }, {
+      "baseDamageFactor" : 0.8,
+      "knockback" : 25
+     }],
+    "class" : "MeleeCombo",
+    "comboSteps" : 4
+   },
+  "altAbilityType" : "spearspin",
+  "altAbility" : {
+    "damageConfig" : {
+     "timeoutGroup" : "alt",
+     "timeout" : 0.5,
+     "statusEffects" : [],
+     "damageSourceKind" : "spear",
+     "knockbackMode" : "none",
+     "baseDamage" : 6,
+     "knockback" : 30
+    },
+    "name" : "Blade Whirl",
+    "scripts" : ["/items/active/weapons/melee/abilities/spear/spin/spin.lua"],
+    "type" : "spearspin",
+    "class" : "Spin",
+    "energyUsage" : 60,
+    "cooldownTime" : 0.2,
+    "stances" : {
+     "spin" : {
+      "allowRotate" : false,
+      "weaponRotation" : -40,
+      "allowFlip" : false,
+      "armRotation" : 80,
+      "weaponOffset" : [0, -1.8],
+      "twoHanded" : true
+     }
+    },
+    "spinRate" : -1750
+   },
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

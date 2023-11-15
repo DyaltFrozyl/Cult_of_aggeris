@@ -1,0 +1,20 @@
+{
+  "itemName" : "coa_harp",
+  "price" : 3000,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "coa_harp.png",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A harp made with strings of K'jil fluff.",
+  "shortdescription" : "Shellmetal Harp",
+  "largeImage" : "coa_harp.png",
+  "image" : "coa_harp.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "coa_harp.png",
+  "activeAngle" : -20,
+  "activeHandPosition" : [0.1, 0.1],
+
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "harp"
+}

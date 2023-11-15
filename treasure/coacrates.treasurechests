@@ -1,0 +1,10 @@
+{
+
+  "coacrates" : [
+    {
+      "containers" : [ "coa_bluesmallcrate" ],
+      "treasurePool" : "verritepool",
+      "minimumLevel" : 0
+    }
+  ]
+}

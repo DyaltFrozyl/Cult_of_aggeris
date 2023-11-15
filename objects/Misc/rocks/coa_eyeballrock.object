@@ -1,0 +1,21 @@
+{
+  "objectName" : "coa_eyeballrock",
+  "colonyTags" : ["pretty","evil"],
+  "rarity" : "Common",
+  "description" : "An eye shaped stone formation.",
+  "shortdescription" : "Eye Shaped Rocks",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 50,
+
+  "inventoryIcon" : "coa_eyeballrockicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "coa_eyeballrock.png:<color>",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

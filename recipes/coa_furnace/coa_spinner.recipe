@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "coa_verritebar", "count" : 5 },
+	{ "item" : "darkwoodmaterial", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "coa_spinner",
+    "count" : 15
+  },
+  "duration" : 0,
+  "groups" : [ "coa_furnace", "consumables", "all" ]
+}

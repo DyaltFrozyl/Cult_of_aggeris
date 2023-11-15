@@ -1,0 +1,23 @@
+{
+  "objectName" : "coa_spearrack2",
+  "colonyTags" : ["human"],
+  "rarity" : "Uncommon",
+  "description" : "An empty weapon rack for spears.",
+  "shortdescription" : "Empty Spear Rack",
+  "race" : "human",
+  "printable" : false,
+  "scannable" : true,
+
+  "inventoryIcon" : "coa_spearrack2icon.png",
+
+  "orientations" : [
+    {
+      "dualImage" : "coa_spearrack2.png",
+
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

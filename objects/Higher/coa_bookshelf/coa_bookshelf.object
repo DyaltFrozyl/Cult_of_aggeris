@@ -1,0 +1,43 @@
+{
+  "objectName" : "coa_bookshelf",
+  "colonyTags" : ["glitch","pretty","evil"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "description" : "A bookshelf made of shined timber.",
+  "shortdescription" : "Timber Bookshelf",
+  "race" : "human",
+  "category" : "decorative",
+  "price" : 100,
+
+  "apexDescription" : "Bookshelves are a timeless furnishing.",
+  "avianDescription" : "A lot of history can be stored in these.",
+  "floranDescription" : "Floran can ssstore meatss listsss.",
+  "glitchDescription" : "Intrigued. I wonder where the books are.",
+  "humanDescription" : "I like bookshelves.",
+  "hylotlDescription" : "There aren't any books in this. What's the point?",
+  "novakidDescription" : "There may be logs of outlaws 'ere.",
+
+  "openSounds" : [ "/sfx/objects/bookcase_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/bookcase_close.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "inventoryIcon" : "coa_bookshelficon.png",
+  "orientations" : [
+    {
+      "dualImage" : "coa_bookshelf.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

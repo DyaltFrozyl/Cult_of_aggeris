@@ -1,0 +1,10 @@
+{
+  "itemName" : "coa_verritebar",
+  "price" : 500,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "coa_verritebar.png",
+  "description" : "A rather grey and somber ore.",
+  "shortdescription" : "Verrite Bar",
+  "itemTags" : [ "reagent" ]
+}

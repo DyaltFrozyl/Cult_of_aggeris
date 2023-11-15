@@ -1,0 +1,23 @@
+{
+  "objectName" : "coa_spearrack1",
+  "colonyTags" : ["human"],
+  "rarity" : "Uncommon",
+  "description" : "A weapon rack with two Mytherrite spears.",
+  "shortdescription" : "Mytherrite spear rack",
+  "race" : "human",
+  "printable" : false,
+  "scannable" : true,
+
+  "inventoryIcon" : "coa_spearrack1icon.png",
+
+  "orientations" : [
+    {
+      "dualImage" : "coa_spearrack1.png",
+
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

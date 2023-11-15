@@ -1,0 +1,50 @@
+{
+  "objectName" : "coa_loom",
+  "colonyTags" : ["crafting"],
+  "category" : "crafting",
+  "rarity" : "Uncommon",
+  "description" : "A large loom used to make outfits of CoA.",
+  "shortdescription" : "Timber Loom",
+  "race" : "generic",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/coa_loom.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " coag loom",
+        "subtitle" : " ^#b9b5b2;coag",
+        "icon" : {
+          "file" : "/interface/crafting/craftinganvil.png"
+        }
+      }
+    },
+    "filter" : ["coa_loom"]
+  },
+  "printable" : false,
+  "price" : 65,
+
+  "apexDescription" : "An old fashioned large-scale loom.",
+  "avianDescription" : "Back home, fellow avians love to weave tapestries.",
+  "floranDescription" : "Why ssshould floran ussse thisss when floran can jussst ussse sskinss?",
+  "glitchDescription" : "Observant. This is a loom.",
+  "humanDescription" : "A loom... I could make some things with this.",
+  "hylotlDescription" : "Probably used in tailoring.",
+  "novakidDescription" : "I may or may not be partnerin' up with this 'ere loom to make me a new hat.",
+
+  "inventoryIcon" : "coa_loom.png",
+  "orientations" : [
+    {
+      "dualImage" : "coa_loom.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "npcToy" : {}
+}

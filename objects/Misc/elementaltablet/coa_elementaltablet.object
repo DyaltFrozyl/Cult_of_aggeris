@@ -1,0 +1,24 @@
+{
+  "objectName" : "coa_elementaltablet",
+  "colonyTags" : ["human"],
+  "rarity" : "Essential",
+  "description" : "A large circular tablet.",
+  "shortdescription" : "Elemental Lock",
+  "race" : "human",
+  "printable" : false,
+  "scannable" : true,
+
+  "inventoryIcon" : "coa_elementaltablet.png",
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "coa_elementaltablet.png", "fullbright" : true   }, { "image" : "coa_elementaltabletlit.png"} ],
+      "direction" : "right",
+
+      "imagePosition" : [-20, -12],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

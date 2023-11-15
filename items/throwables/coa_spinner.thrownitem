@@ -1,0 +1,30 @@
+{
+  "itemName" : "coa_spinner",
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "coa_spinner.png",
+  "image" : "coa_spinner.png",
+  "shortdescription" : "Verrite Spinner",
+  "description" : "A flying cutter, great for making cut wounds.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.3,
+
+  "projectileType" : "coa_spinner",
+  "projectileConfig" : {
+    "speed" : 40,
+    "power" : 30,
+    "knockback" : 20,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "objectName" : "coa_blobrock",
+  "colonyTags" : ["pretty","evil"],
+  "rarity" : "Common",
+  "description" : "Some vaguely shaped rocks, more akin to a blob.",
+  "shortdescription" : "Blob Shaped Rocks",
+  "race" : "glitch",
+  "category" : "decorative",
+  "price" : 50,
+
+  "inventoryIcon" : "coa_blobrockicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "coa_blobrock.png:<color>",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

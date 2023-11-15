@@ -1,0 +1,10 @@
+{
+  "itemName" : "coa_mote",
+  "price" : 500,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "coa_mote.png",
+  "description" : "A great catalyst for magic abilities, with a very meek glow emanating.",
+  "shortdescription" : "Vacant Mote",
+  "itemTags" : [ "reagent" ]
+}

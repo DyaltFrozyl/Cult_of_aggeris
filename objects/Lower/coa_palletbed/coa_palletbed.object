@@ -1,0 +1,46 @@
+{
+  "objectName" : "coa_palletbed",
+  "colonyTags" : ["misc","tier1"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A rickety old pallet, makeshift a bed.",
+  "shortdescription" : "Pallet Bed",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 100,
+
+  "apexDescription" : "Why would anyone want to sleep in such a stiff bed?",
+  "avianDescription" : "It's not a very great rest here...",
+  "floranDescription" : "Even floran ssleepss on better than thisss.",
+  "glitchDescription" : "Interested. I wonder who sleeps here?",
+  "humanDescription" : "I would only sleep here on a bet.",
+  "hylotlDescription" : "Made with a wooden pallet? This is uncomfortable.",
+  "novakidDescription" : "I ain't too sure who'd take a long one here.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-15, 13],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/Lower/coa_palletbed/coa_palletbedcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "coa_palletbedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "coa_palletbed.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

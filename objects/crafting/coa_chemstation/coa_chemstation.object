@@ -1,0 +1,66 @@
+{
+  "objectName" : "coa_chemstation",
+  "colonyTags" : ["crafting"],
+  "category" : "crafting",
+  "rarity" : "Rare",
+  "description" : "Make potions and volatile concoctions, especially with motes.",
+  "shortdescription" : "Chemistry Station",
+  "race" : "generic",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/coa_furnace.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Cobblestone Forge",
+        "subtitle" : " ^#b9b5b2;Ingots & Armours",
+        "icon" : {
+          "file" : "/interface/crafting/craftinganvil.png"
+        }
+      }
+    },
+    "filter" : ["coa_chemstation"]
+  },
+  "printable" : false,
+  "price" : 65,
+
+  "apexDescription" : "I could make some dangerous chemicals with these tools.",
+  "avianDescription" : "These white things are very interesting.",
+  "floranDescription" : "Painful poisssonss for my ssspear.",
+  "glitchDescription" : "Joyous. I get to be the potion seller!",
+  "humanDescription" : "I need to make the strongest potions for the upcoming battles.",
+  "hylotlDescription" : "A table with alchemical tools and gems.",
+  "novakidDescription" : "May aswell try 'er out.",
+
+   "lightColor" : [119, 89, 47],
+
+  "inventoryIcon" : "coa_chemstationicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "coa_chemstation.png:<color>.<frame>" }, { "image" : "coa_chemstationlit.png:<color>.<frame>", "fullbright" : true  } ],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-16, 0],
+      "frames" : 7,
+      "animationCycle" : 1.2,
+
+      "spaceScan" : 0.1,
+      "lightPosition" : [-0.2, 1],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "coa_chemstation.png:<color>.<frame>" }, { "image" : "coa_chemstationlit.png:<color>.<frame>", "fullbright" : true  } ],
+      "direction" : "right",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 7,
+      "animationCycle" : 1.2,
+
+      "spaceScan" : 0.1,
+      "lightPosition" : [1.2, 1],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "npcToy" : {}
+}

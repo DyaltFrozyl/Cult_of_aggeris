@@ -1,0 +1,52 @@
+{
+  "type" : "coa_priorslave",
+  "baseType" : "base",
+  
+  "damageTeamType" : "ghostly",
+
+  "persistent" : true,
+
+  "dropPools" : [ "villagertreasure" ],
+
+  "scriptConfig" : {
+    "behavior" : "spectator",
+    
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "I have nothing to say to you."
+          ]
+        },
+        "human" : {
+          "default" : [
+            "I used to be in worse conditions."
+          ]
+        },
+        "apex" : {
+          "default" : [
+            "I used to be in worse conditions."
+          ]
+        }
+      }
+    }
+  },
+
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [
+              { "name" : "coa_survival_chest" },
+              { "name" : "coa_gambesonchest" }
+            ],
+            "legs" : [
+              { "name" : "coa_survival_pants" },
+              { "name" : "coa_gambesonlegs" }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

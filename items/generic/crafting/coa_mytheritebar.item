@@ -1,0 +1,10 @@
+{
+  "itemName" : "coa_mytheritebar",
+  "price" : 500,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "coa_mytheritebar.png",
+  "description" : "A hard, and bright, gleaming bar previously considered special.",
+  "shortdescription" : "Mytherite Bar",
+  "itemTags" : [ "reagent" ]
+}

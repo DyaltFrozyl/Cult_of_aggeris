@@ -1,0 +1,29 @@
+{
+  "verritepool" : [
+    [0, {
+        "poolRounds" : [[0.65, 1], [0.3, 2], [0.05, 3], [0.05, 4]],
+        "pool" : [
+          {"weight" : 0.2, "item" : ["coa_verritebar", 0]},
+          {"weight" : 0.6, "item" : ["coa_verritebar", 1]},
+          {"weight" : 0.2, "item" : ["coa_verritebar", 2]},
+          {"weight" : 0.05, "item" : ["coa_verritebar", 3]}
+        ] } ] ],
+    
+  "motepool" : [
+    [0, {
+        "poolRounds" : [[0.65, 1], [0.3, 2], [0.05, 3]],
+        "pool" : [
+          {"weight" : 0.6, "item" : ["coa_mote", 0]},
+          {"weight" : 0.1, "item" : ["coa_mote", 1]},
+          {"weight" : 0.2, "item" : ["coa_mote", 0]}
+        ] } ] ],
+
+   "coacrates" : [
+     [0, {
+       "fill" : [
+         {"weight" : 1, "pool" : "verritepool" },
+         {"weight" : 1, "pool" : "chestMoney" },
+         {"weight" : 1, "pool" : "motepool" }
+       ],
+       "poolRounds" : [[0.65, 1]]
+      } ] ] }

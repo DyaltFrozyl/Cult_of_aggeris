@@ -1,0 +1,43 @@
+{
+  "id" : "coabestiarygawrania",
+
+  "title" : "Bestiary Subject: Gawr'ania",
+
+  "description" : "The file depicting Gawr'ania as found in the bestiary",
+
+  "icon" : "coa_zelfitzcover2.png",
+
+  "contentPages" : [
+
+  "Roughly 3-4ft tall, around the size of a child. Small muscle masses and looks akin to a goblin... if a goblin's skin was pulled off of it. 
+  
+  Their vocabulary isn't very skilled either, resorting to screams and mocking tones whenever they have to.
+  
+  Reproduction is currently unknown but every Gawr'ania we crossed appears to be male.", 
+  
+  "Life spans, are rather short for them. Ranging from what can be a week to roughly two months. 
+  
+  This is due to their aggressive nature amongst each other. Those who live the longest are seen as threats to the others.
+  
+  It should be noted that they have a rather sadistic side to them. Instead of outright mercy killing, they would enjoy messing with their prey. Either it be physical or mental trauma, as long as they have fun...",
+
+  "They are too cowardly to confront face to face, Gawr'ania rather wait to ambush their prey over facing them outright. Laying traps or hiding in trees and bushes, formidable in groups too.
+
+  It's never a great idea to face one alone since others might be hiding from sight. Due to their height, it's rather hard to fight them with melee weapons. Speed isn't much of a issue though since their legs are somewhat stubby.",
+  
+  "Most of their equipment is stolen or taken from the last victim they've encountered. 
+  
+  Other times, you can expect makeshift or old and rusted weapons and armor. 
+  
+  Despite commonly fearing fire, they learned to use fire bombs. They have yet to learn to use crossbows."
+
+
+    ],
+
+    "itemConfig" : {
+
+    "rarity" : "Rare",
+
+    "price" : 500
+  }
+}

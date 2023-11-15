@@ -1,0 +1,33 @@
+{
+  "objectName" : "aerisstatue",
+  "colonyTags" : ["glitch","pretty","evil"],
+  "rarity" : "Essential",
+  "description" : "A statue to the goddess Aeris!",
+  "shortdescription" : "Statue to Aeris",
+  "race" : "glitch",
+  "category" : "Religious",
+  "price" : 100,
+
+  "apexDescription" : "I don't understand this language. But I can tell an important figure when I see one.",
+  "avianDescription" : "I am concerned for my safety here.",
+  "floranDescription" : "Big lady. Ssstrong lady.",
+  "glitchDescription" : "Shocked. This statue has power behind it.",
+  "humanDescription" : "Thats a big woman.",
+  "hylotlDescription" : "Who is this? What does the stand say?",
+  "novakidDescription" : "That there is a real sight.",
+
+  "inventoryIcon" : "aerisstatue.png",
+  "orientations" : [
+    {
+      "dualImage" : "aerisstatue.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

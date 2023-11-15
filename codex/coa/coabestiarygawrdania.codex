@@ -1,0 +1,34 @@
+{
+  "id" : "coabestiarygawrdania",
+
+  "title" : "Bestiary Subject: Gawr'dania",
+
+  "description" : "The file depicting Gawr'dania as found in the bestiary",
+
+  "icon" : "coa_zelfitzcover2.png",
+
+  "contentPages" : [
+    "Eventually, if they manage to live long enough, a Gawr'ania will become a Gawr'dania.
+    
+    A somewhat taller and scorn looking version of their former goblin selves. Their body appears scabby over the blood red skin. Horns grow from their head and their teeth are more gnarly than before.
+
+    The saying goes ''Live longer, get smarter. Get smarter, improve. Improve, survive.''",
+
+    "That being said, Dania tend to abuse or kill off any other Dania or Ania in their pack if desired.
+
+    Dania can also be seen leading Ania around, teaching military like tactics and formations... which tend not to work out the best as they would like.
+    
+    Unlike their cowardly brothers, it's rare to see a Dania hide or ambush unless wounded. They rather charge relentlessly towards their foes until they're a ''john/jane doe''.",
+
+    "Their equipment is usually better than what Ania carry around, still not the best over all. As stated before, their equipment is either stolen or taken from their victims.
+
+    Unlike Ania, they carry horns to alert their weaker brothers. And unlike Ania, once again, they tend not to fear fire and instead embrace it. There has been notes of Dania charging towards people while set ablaze, grappling them and mauling them to death as they both burn up."
+    ],
+
+    "itemConfig" : {
+
+    "rarity" : "Rare",
+
+    "price" : 500
+  }
+}
